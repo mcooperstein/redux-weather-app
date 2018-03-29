@@ -1,10 +1,23 @@
+/* css vairables */
+
+:root{
+  --beige: #dcdcc6;
+  --red: #FF3232;
+  --blue: #1919FF;
+}
+
+/* styles */
+
+#heading {
+  text-align: center;
+  font-weight: bolder;
+  color: var(--blue);
+  margin: 20px 0;
+}
+
 td,th{
   vertical-align: middle !important;
   text-align: center !important;
-}
-
-#city-name {
-  font-weight:bolder;
 }
 
 .input-group {
